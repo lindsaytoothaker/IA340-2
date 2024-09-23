@@ -23,13 +23,13 @@ LIMIT 1;
 
 --4.7
 /* My prompt was: "calculate the VA population growth rate in the past five years" and it only returned one of about 1.819. 
-/* So I edited my prompt to ask: "calculate the population growth rate of each year for the past five years in VA" which returned five
-/* different growth rates for years 2015-2019 with the correct results of 0.209 for 2019, 0.563 for 2018, etc.
+So I edited my prompt to ask: "calculate the population growth rate of each year for the past five years in VA" which returned five
+different growth rates for years 2015-2019 with the correct results of 0.209 for 2019, 0.563 for 2018, etc.
 
 
 
 /*For my random question, I asked ChatGBT to 'find the five states with the lowest income in recent years.' It worked well and 
-/*ChatGBT understood what I was asking and how to solve problems
+ChatGBT understood what I was asking and how to solve problems
 
 SELECT n.name, i.income, i.year
 FROM income i
